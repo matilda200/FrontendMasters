@@ -1,0 +1,123 @@
+header {
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 9px solid orangered;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    font-size: large;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+hr{
+    height:2;color:inherit;
+}
+input[type=email],input[type=password],input[type=text] {
+    border:1px solid rgb(82, 81, 81);
+    box-shadow:inset 0 1px 2px rgb(90, 89, 89);
+    border-radius:4px;
+    color:rgb(83, 81, 81);
+    display:block;
+    font-family:inherit;
+    padding:8px 10px;
+    vertical-align:middle;
+    width:90%}
+input[type=email],input[type=password],input[type=text]{
+    outline:0;
+    border-color:#686767
+}
+input[type=email][disabled],input[type=password][disabled],input[type=text][disabled] {
+    background:#6e6d6d;
+    color:#3e3e3e;
+    cursor:not-allowed;
+    font-style:italic
+}
+select {
+    height:40px;
+    border:1px solid rgb(112, 108, 108);
+    background-color:rgb(87, 81, 81);
+    
+}
+label {
+    display:inline-block;
+    margin:0 0 5px
+}
+input[type=checkbox] {
+    margin-right:5px;
+}
+textarea {
+    height: 10px;
+    resize:vertical
+}
+label {
+    color: white;
+
+}
+main {
+    background-color: rgb(43, 42, 42);
+    margin-right: 0em;
+    padding: 0 25em;
+    border-color: none;
+    line-height: 4;
+    
+}
+li {
+    text-decoration: none;
+    display: inline-flex;
+    
+}
+li a:hover {
+    background-color: rgb(120, 146, 161);
+}
+.active {
+        background-color: rgb(255, 0, 0);
+}
+div.nav-header {
+    position: absolute;
+    left: 900px;
+    top: 40px;
+    word-spacing: 0.5cm;
+}
+footer {
+    background-color: black;
+}
+div.lists-footer {
+    position: absolute;
+    left: 360px;
+    top: 490px;
+    word-spacing: 0.5cm;
+}
+div.contact {
+    position: absolute;
+    left: 1020px;
+    top: 490px;
+    word-spacing: 0.5cm;
+    
+}
+div.app-links {
+    
+}
+span {
+    color: rgb(124, 67, 67);
+}
+.join{
+    background-color: tomato;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: 1px solid tomato;
+}
+.join2{
+    background-color: grey;
+    color: grey;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
